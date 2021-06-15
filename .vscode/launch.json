@@ -10,7 +10,7 @@
 			"args": ["show", "-json", "./plans/subnet-nsg.tfplan"],
 			"cwd": "/home/v-jophelps/dev/tf-json-evaluation",
 			"env": {
-				// "TF_LOG": "TRACE",
+				"TF_LOG": "TRACE",
 				"TF_FORK": "0"
 			}
 		}
